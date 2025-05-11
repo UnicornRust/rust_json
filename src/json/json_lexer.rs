@@ -1,8 +1,5 @@
 use std::collections::LinkedList;
-
-use crate::json_impl::JsonToken;
-
-
+use crate::json::json_impl::JsonToken;
 
 
 pub struct JsonLexer<'a> {
